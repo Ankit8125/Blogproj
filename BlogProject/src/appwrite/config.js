@@ -84,7 +84,7 @@ export class Service{
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
                 queries // we can do more pagination in this. 
-            )
+            ) // will return in an array
         } catch (error) {
             console.log("Appwrite service :: getPosts :: error ", error);
             return false; 
